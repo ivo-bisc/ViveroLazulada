@@ -1,6 +1,8 @@
 import './Categories.css'
 
 const especies = [
+
+/*
   {
     name: 'Oleo Texano Aurea',
     description: '',
@@ -8,26 +10,62 @@ const especies = [
     count: 'Color y Robustez',
     emoji: '🍃'
   },
+  */
   {
     name: 'Melaleuca',
     description: 'Arbusto de crecimiento rápido, ideal para cercos vivos densos.',
     image: `${import.meta.env.BASE_URL}Melaleuca.jpg`,
-    count: 'Crecimiento rápido',
+    count: '70cm~',
     emoji: '🌳'
   },
   {
-    name: 'Oleo Texano Verde',
-    description: 'Plantas de bajo mantenimiento con formas únicas y fascinantes.',
+    name: 'Oleo Texano',
+    description: 'Arbusto de bajo mantenimiento, y alta resistencia al clima.',
     image: `${import.meta.env.BASE_URL}OleoVerde.jpg`,
-    count: 'Velocidad y resistencia',
+    count: '70cm~',
     emoji: '🌵'
   },
   {
     name: 'Laurel de Flor Blanca',
-    description: 'Llena tu espacio de color, fragancia y vida natural.',
+    description: 'Arbusto de flores blancas, ideal para espacios con sombra parcial.',
     image: `${import.meta.env.BASE_URL}LaurelDeFlor.jpg`,
-    count: 'Flor Blanca',
+    count: '70cm~',
     emoji: '🌸'
+  },
+  {
+    name: 'Buxus',
+    description: 'Arbusto de crecimiento medio, ideal para cercos vivos formales y decorativos.',
+    image: `${import.meta.env.BASE_URL}buxus.jpeg`,
+    count: '50cm~',
+    emoji: '�'
+  },
+   {
+    name: 'Paspalum',
+    description: 'Arbusto de crecimiento MUY rápido, ideal para cercos vivos densos y resistentes.',
+    image: `${import.meta.env.BASE_URL}paspalum.jpeg`,
+    count: '1.70m~',
+    emoji: '�'
+  },
+   {
+    name: 'Dodonea',
+    description: 'Arbvusto levemente rojizo en verano, y bordo intenso en otoño, ideal para cercos vivos con un toque de color.',
+    image: `${import.meta.env.BASE_URL}dodonea.jpeg`,
+    count: '60cm~',
+    emoji: '�'
+  },
+   {
+    name: 'Limpiatubo',
+    description: 'Arbusto de crecimiento rápido, con una hermosa floracion roja. Ideal para cercos vivos densos y coloridos.',
+    image: `${import.meta.env.BASE_URL}limpiatubo.jpeg`,
+    count: '70cm~',
+    emoji: '�'
+  },
+   {
+    name: 'Leylandii',
+    description: 'Arbusto de crecimiento medio, resistente al clima y muy facil de mantener.',
+    image: `${import.meta.env.BASE_URL}leylandi.jpeg`,
+    count: '50cm~',
+    emoji: '�'
   },
 ]
 
