@@ -2,7 +2,13 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <section id="inicio" className="hero">
+    <section
+      id="inicio"
+      className="hero"
+      style={{
+        backgroundImage: `linear-gradient(135deg, rgba(26, 58, 42, 0.85) 0%, rgba(45, 90, 61, 0.75) 50%, rgba(58, 122, 82, 0.65) 100%), url('${import.meta.env.BASE_URL}OleoTexano.jpeg')`
+      }}
+    >
       <div className="hero__overlay"></div>
       <div className="hero__content container">
 

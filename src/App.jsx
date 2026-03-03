@@ -17,6 +17,9 @@ function App() {
       <Services />
       <Testimonials />
       <Footer />
+      <a href="http://wa.me/541162934239" className="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <img src={`${import.meta.env.BASE_URL}WPP.png`} alt="WhatsApp" />
+      </a>
     </div>
   )
 }

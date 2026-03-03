@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="footer__grid">
             <div className="footer__brand">
               <a href="#" className="footer__logo">
-                  <img src="/Logo V.png" alt="Vivero Lazulada" className="navbar__logo-img" />
+                  <img src={`${import.meta.env.BASE_URL}Logo V.png`} alt="Vivero Lazulada" className="navbar__logo-img" />
                 <span>Vivero Lazulada</span>
               </a>
               <p className="footer__brand-text">
@@ -30,10 +30,10 @@ const Footer = () => {
               <h4>Redes Sociales</h4>
              <div className="footer__social">
                 <a href="https://www.instagram.com/viverolazulada" className="navbar__whatsapp-link" target="_blank" rel="noopener noreferrer">
-                 <img src="/ig.png" alt="Instagram" className="navbar__logo-img" />
+                 <img src={`${import.meta.env.BASE_URL}ig.png`} alt="Instagram" className="navbar__logo-img" />
                 </a>
                 <a href="http://wa.me/541162934239" className="navbar__whatsapp-link" target="_blank" rel="noopener noreferrer">
-                 <img src="/WPP.png" alt="WhatsApp" className="navbar__logo-img" />
+                 <img src={`${import.meta.env.BASE_URL}WPP.png`} alt="WhatsApp" className="navbar__logo-img" />
                 </a>
               </div>
             </div>

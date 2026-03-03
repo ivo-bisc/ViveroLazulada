@@ -19,8 +19,8 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__container container">
         <a href="#" className="navbar__logo">
-          <img src="/Logo V.png" alt="Vivero Lazulada" className="navbar__logo-img" />
-          <img src="/Logo Texto.png" alt="Vivero Lazulada" className="navbar__logo-img" />
+          <img src={`${import.meta.env.BASE_URL}Logo V.png`} alt="Vivero Lazulada" className="navbar__logo-img" />
+          <img src={`${import.meta.env.BASE_URL}Logo Texto.png`} alt="Vivero Lazulada" className="navbar__logo-img" />
         </a>
 
         <ul className={`navbar__links ${menuOpen ? 'navbar__links--open' : ''}`}>
@@ -32,9 +32,6 @@ const Navbar = () => {
         </ul>
 
         <a href="http://wa.me/541162934239" className="navbar__cta">Contactanos</a>
-        <a href="http://wa.me/541162934239" className="navbar__whatsapp-link" target="_blank" rel="noopener noreferrer">
-          <img src="/WPP.png" alt="WhatsApp" className="navbar__logo-img" />
-        </a>
       
 
         <button

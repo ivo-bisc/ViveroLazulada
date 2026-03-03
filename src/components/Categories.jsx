@@ -4,28 +4,28 @@ const especies = [
   {
     name: 'Oleo Texano Aurea',
     description: '',
-    image: '/OleoTexano.jpeg',
+    image: `${import.meta.env.BASE_URL}OleoTexano.jpeg`,
     count: 'Color y Robustez',
     emoji: '🍃'
   },
   {
     name: 'Melaleuca',
     description: 'Arbusto de crecimiento rápido, ideal para cercos vivos densos.',
-    image: '/Melaleuca.jpg',
+    image: `${import.meta.env.BASE_URL}Melaleuca.jpg`,
     count: 'Crecimiento rápido',
     emoji: '🌳'
   },
   {
     name: 'Oleo Texano Verde',
     description: 'Plantas de bajo mantenimiento con formas únicas y fascinantes.',
-    image: '/OleoVerde.jpg',
+    image: `${import.meta.env.BASE_URL}OleoVerde.jpg`,
     count: 'Velocidad y resistencia',
     emoji: '🌵'
   },
   {
     name: 'Laurel de Flor Blanca',
     description: 'Llena tu espacio de color, fragancia y vida natural.',
-    image: '/LaurelDeFlor.jpg',
+    image: `${import.meta.env.BASE_URL}LaurelDeFlor.jpg`,
     count: 'Flor Blanca',
     emoji: '🌸'
   },

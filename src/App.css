@@ -2,3 +2,29 @@
   width: 100%;
   min-height: 100vh;
 }
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35));
+}
+
+.whatsapp-float img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
