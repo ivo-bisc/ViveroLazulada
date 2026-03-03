@@ -1,16 +1,20 @@
-# React + Vite
+# Vivero Lazulada
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web del Vivero Lazulada, especializado en cerco vivo con más de 25 años de experiencia.
 
-Currently, two official plugins are available:
+🌐 **Web:** [https://ivo-bisc.github.io/ViveroLazulada/](https://ivo-bisc.github.io/ViveroLazulada/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Desarrollo local
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Deploy a GitHub Pages
 
-## Expanding the ESLint configuration
+Para publicar cambios en la web:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git add . && git commit -m "descripción del cambio" && git push origin main && npm run deploy
+```
