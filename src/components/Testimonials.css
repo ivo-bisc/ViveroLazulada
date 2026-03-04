@@ -99,6 +99,22 @@
   background: var(--green-400);
 }
 
+@media (max-width: 768px) {
+  .testimonials__wrapper {
+    max-width: 100%;
+  }
+
+  .testimonial-card {
+    padding: 1.5rem 1rem;
+    border-radius: 16px;
+  }
+
+  .testimonial-card__image {
+    max-height: none;
+    border-radius: 12px;
+  }
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
