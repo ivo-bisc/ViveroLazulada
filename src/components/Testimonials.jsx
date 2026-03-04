@@ -23,6 +23,20 @@ const testimonials = [
     rating: 5,
     avatar: '🏡',
   },
+  {
+    name: 'Saint Thomas',
+    role: 'Canning',
+    image: `${import.meta.env.BASE_URL}Plantacion4.jpeg`,
+    rating: 5,
+    avatar: '🏡',
+  },
+  {
+    name: 'La Providencia',
+    role: 'Canning',
+    image: `${import.meta.env.BASE_URL}Plantacion5.jpeg`,
+    rating: 5,
+    avatar: '🏡',
+  },
 ]
 
 const Testimonials = () => {

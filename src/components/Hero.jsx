@@ -13,11 +13,11 @@ const Hero = () => {
       <div className="hero__content container">
 
         <h1 className="hero__title">
-          Todo lo que buscas<br />
-          <span className="hero__title-accent">para tu cerco vivo</span>
+          Más verde. Más privacidad.<br />
+          <span className="hero__title-accent">Todo lo que buscas para tu cerco vivo</span>
         </h1>
         <p className="hero__description">
-          Mas de 15 especies para tu cerco vivo, con asesoría personalizada y entrega a domicilio.
+          Hojas los 365 días. Arbustos ideales para cercos vivos, con asesoría personalizada y entrega a domicilio.
         </p>
         <div className="hero__actions">
           <a href="#categorias" className="hero__btn hero__btn--primary">
