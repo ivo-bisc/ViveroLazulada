@@ -2,15 +2,13 @@ import './Categories.css'
 
 const especies = [
 
-/*
   {
-    name: 'Oleo Texano Aurea',
-    description: '',
+    name: 'Olea Texana Aurea',
+    description: 'Arbusto de bajo mantenimiento. Ideal para cercos vivos densos y coloridos.',
     image: `${import.meta.env.BASE_URL}OleoTexano.jpeg`,
-    count: 'Color y Robustez',
+    count: '70cm~',
     emoji: '🍃'
   },
-  */
   {
     name: 'Melaleuca',
     description: 'Arbusto de crecimiento rápido, ideal para cercos vivos densos.',
@@ -19,7 +17,7 @@ const especies = [
     emoji: '🌳'
   },
   {
-    name: 'Oleo Texano',
+    name: 'Olea Texana',
     description: 'Arbusto de bajo mantenimiento, y alta resistencia al clima.',
     image: `${import.meta.env.BASE_URL}OleoVerde.jpg`,
     count: '70cm~',
@@ -66,6 +64,13 @@ const especies = [
     image: `${import.meta.env.BASE_URL}leylandi.jpeg`,
     count: '50cm~',
     emoji: '�'
+  },
+  {
+    name: '+ 50 especies de arbustos',
+    description: 'Consulta por mas de 50 especies de arbustos perennes, ideales para cercos vivos densos y coloridos.',
+    image: `${import.meta.env.BASE_URL}eugenias.jpeg`,
+    count: <a href="http://wa.me/541162934239">CONSULTA ACA</a>,
+    emoji: ''
   },
 ]
 
