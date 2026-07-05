@@ -53,7 +53,6 @@ const Testimonials = () => {
     <section id="testimonios" className="testimonials">
       <div className="container">
         <div className="testimonials__header">
-          <span className="testimonials__label">Testimonios</span>
           <h2 className="section-title">Trabajos Realizados</h2>
           <p className="section-subtitle">
             Trabajos realizados, clientes satisfechos.

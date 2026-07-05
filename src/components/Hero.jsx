@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
         <div className="hero__actions">
           <a href="#categorias" className="hero__btn hero__btn--primary">
-            Explorar Especies
+            Ver Especies
           </a>
           <a href="http://wa.me/541162934239" className="hero__btn hero__btn--secondary">
             Contáctanos

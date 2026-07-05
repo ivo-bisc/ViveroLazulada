@@ -23,7 +23,6 @@ const Services = () => {
     <section id="servicios" className="services">
       <div className="container">
         <div className="services__header">
-          <span className="services__label">Lo que Ofrecemos</span>
           <h2 className="section-title">Nuestros servicios</h2>
           <p className="section-subtitle">
             

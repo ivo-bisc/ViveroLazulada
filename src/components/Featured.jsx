@@ -59,7 +59,6 @@ const Featured = () => {
     <section className="featured">
       <div className="container">
         <div className="featured__header">
-          <span className="featured__label">Destacadas</span>
           <h2 className="section-title">Nuestras plantas favoritas</h2>
           <p className="section-subtitle">
             Selección especial de nuestras plantas más queridas y recomendadas
