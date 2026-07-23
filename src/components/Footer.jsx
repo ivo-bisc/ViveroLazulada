@@ -12,7 +12,7 @@ const Footer = () => {
                 <span>Vivero Lazulada</span>
               </a>
               <p className="footer__brand-text">
-                Vivero Lazulada es un vivero mayorista con más de 20 años de experiencia, especializado en cerco vivo. Ofrecemos precios mayoristas aún en pocas cantidades.
+                Vivero Lazulada es un vivero mayorista ubicado en Canning, Ezeiza, con más de 20 años de experiencia, especializado en cerco vivo. Ofrecemos precios mayoristas aún en pocas cantidades.
               </p>
               
             </div>
