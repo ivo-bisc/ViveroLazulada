@@ -79,7 +79,6 @@ const Categories = () => {
     <section id="categorias" className="categories">
       <div className="container">
         <div className="categories__header">
-          <span className="categories__label">Destacados</span>
           <h2 className="section-title">Plantas de Exterior</h2>
           <p className="section-subtitle">
             Arbustos perennes, hojas verdes todo el año, ideales para cercos vivos. Resisten el sol directo y las condiciones climáticas cambiantes, aportando privacidad y belleza natural a tu espacio exterior.
