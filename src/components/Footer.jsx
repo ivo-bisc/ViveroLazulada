@@ -44,6 +44,10 @@ const Footer = () => {
       <div className="footer__bottom">
         <div className="container">
           <p>© 2026 Vivero Lazulada. Todos los derechos reservados.</p>
+          <a href="https://ivoost.ar" className="footer__dev-link" target="_blank" rel="noopener noreferrer">
+            <span>Desarrollado por</span>
+            <img src={`${import.meta.env.BASE_URL}ivoost.png`} alt="Ivoost" className="footer__dev-img" />
+          </a>
         </div>
       </div>
     </footer>

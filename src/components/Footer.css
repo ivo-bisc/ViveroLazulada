@@ -141,6 +141,23 @@
   color: rgba(255, 255, 255, 0.4);
 }
 
+.footer__dev-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.4);
+  transition: color var(--transition-base);
+}
+
+.footer__dev-link:hover {
+  color: var(--white);
+}
+
+.footer__dev-img {
+  height: 22px;
+  width: auto;
+}
 @media (max-width: 1024px) {
   .footer__grid {
     grid-template-columns: repeat(2, 1fr);
