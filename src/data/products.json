@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Olea Texana Aurea",
+    "description": "Arbusto de bajo mantenimiento. Ideal para cercos vivos densos y coloridos.",
+    "image": "OleoTexano.webp",
+    "count": "70cm~"
+  },
+  {
+    "name": "Melaleuca",
+    "description": "Arbusto de crecimiento rápido, ideal para cercos vivos densos.",
+    "image": "Melaleuca.jpg",
+    "count": "70cm~"
+  },
+  {
+    "name": "Olea Texana",
+    "description": "Arbusto de bajo mantenimiento, y alta resistencia al clima.",
+    "image": "OleoVerde.jpg",
+    "count": "70cm~"
+  },
+  {
+    "name": "Laurel de Flor Blanca",
+    "description": "Arbusto de flores blancas, ideal para espacios con sombra parcial.",
+    "image": "LaurelDeFlor.jpg",
+    "count": "70cm~"
+  },
+  {
+    "name": "Buxus",
+    "description": "Arbusto de crecimiento medio, ideal para cercos vivos formales y decorativos.",
+    "image": "buxus.jpeg",
+    "count": "50cm~"
+  },
+  {
+    "name": "Paspalum",
+    "description": "Arbusto de crecimiento MUY rápido, ideal para cercos vivos densos y resistentes.",
+    "image": "paspalum.jpeg",
+    "count": "1.70m~"
+  },
+  {
+    "name": "Dodonea",
+    "description": "Arbusto levemente rojizo en verano, y bordo intenso en otoño, ideal para cercos vivos con un toque de color.",
+    "image": "dodonea.jpeg",
+    "count": "60cm~"
+  },
+  {
+    "name": "Limpiatubo",
+    "description": "Arbusto de crecimiento rápido, con una hermosa floracion roja. Ideal para cercos vivos densos y coloridos.",
+    "image": "limpiatubo.jpeg",
+    "count": "70cm~"
+  },
+  {
+    "name": "Leylandii",
+    "description": "Arbusto de crecimiento medio, resistente al clima y muy facil de mantener.",
+    "image": "leylandi.jpeg",
+    "count": "50cm~"
+  },
+  {
+    "name": "+ 50 especies de arbustos",
+    "description": "Consulta por mas de 50 especies de arbustos perennes, ideales para cercos vivos densos y coloridos.",
+    "image": "eugenias.jpeg",
+    "count": "CONSULTA ACA",
+    "ctaHref": "http://wa.me/541162934239"
+  }
+]
